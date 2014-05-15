@@ -11,6 +11,12 @@ light_ray
 sudo apt-get install libjpeg-dev libfreetype6 libfreetype6-dev zlib1g-dev libpng12-dev
 ```
 
+А для встановлення системи розпізнавання потрібно виконати:
+```code
+sudo apt-get install tesseract-ocr
+```
+
+#### Розгортання репозиторію
 Одразу після клонування рекомендуємо налаштувати git push. Для перейдіть в каталог з проектом та виконайте `nano .git/config`. Додайте
 ```code
 [push]

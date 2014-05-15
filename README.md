@@ -8,7 +8,7 @@ light_ray
 #### Додаткові залежності для linux
 Для роботи із зображеннями в форматі jpeg в ubuntu потрібно встановити наступні пакети:
 ```code
-sudo apt-get install libjpeg libjpeg-dev libfreetype6 libfreetype6-dev zlib1g-dev
+sudo apt-get install libjpeg-dev libfreetype6 libfreetype6-dev zlib1g-dev libpng12-dev
 ```
 
 Одразу після клонування рекомендуємо налаштувати git push. Для перейдіть в каталог з проектом та виконайте `nano .git/config`. Додайте

@@ -29,6 +29,10 @@ sudo apt-get install tesseract-ocr
   /usr/share/tesseract-ocr/tessdata
 `
 
+Python-библиотека для роботи з енжайном для розпізнавання:
+- https://github.com/madmaze/python-tesseract
+
+
 #### Розгортання репозиторію
 Одразу після клонування рекомендуємо налаштувати git push. Для перейдіть в каталог з проектом та виконайте `nano .git/config`. Додайте
 ```code

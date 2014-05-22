@@ -1,4 +1,3 @@
 nose
 pillow
 -e git+https://github.com/madmaze/python-tesseract.git#egg=pytesseract
-

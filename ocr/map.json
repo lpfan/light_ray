@@ -1,0 +1,15 @@
+{
+    "stores":[
+        {
+            "pn":"383167726584",
+            "name":"arsen",
+            "lines":{
+                "city":1,
+                "street":2,
+                "pn":3,
+                "products_start":9,
+                "price_delimeter":""
+            }
+        }
+    ]
+}

@@ -1,10 +1,16 @@
 import json
 
-from handlers import store_map_path
+from ocr import store_map_path
+from base import recognize_text
 
 
 if __name__ == "__main__":
-    store_map = json.load(open(store_map_path, 'r'))
+
+    with open(store_map_path, 'r') as f:
+        store_map = json.load(f)
+
+    raw_check = recognize_text()
+
     import pdb; pdb.set_trace()  # XXX BREAKPOINT
 
 

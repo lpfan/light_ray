@@ -1,7 +1,7 @@
 import Image
 
 from pytesseract import image_to_string
-from system import test_image_scan1, test_image_scan2, test_image_scan3
+from ocr import test_image_scan1, test_image_scan2, test_image_scan3
 
 
 def recognize_text(image_path=test_image_scan1):

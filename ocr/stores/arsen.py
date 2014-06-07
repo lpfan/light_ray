@@ -1,4 +1,4 @@
-from handlers.base import BaseStore
+from ocr.base import BaseStore
 
 
 class ArsenStore(BaseStore):
